@@ -1,8 +1,14 @@
-# React + Vite
+# CreatixStudio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Jalankan `npm install` untuk install dependencies
+- Jalankan `npm run dev` untuk memulai local server
 
-Currently, two official plugins are available:
+## Dependencies
+- React.js
+- TailwindCSS
+- GSAP
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Deployment
+Website ini telah dideploy menggunakan <b>Vercel</b>: https://creatixstudio.vercel.app/
+
+Developed by [Henry Salim](https://github.com/henrysalim)
