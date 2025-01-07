@@ -6,7 +6,7 @@ export default function AboutUs() {
         <MainLayout>
             <MainHeading>About Us</MainHeading>
             <div className="mt-16">
-                <img src="./images/hero-aboutus.jpg" alt="CreatixStudio" className="object-cover rounded w-full h-96"/>
+                <img loading="lazy" src="./images/hero-aboutus.jpg" alt="CreatixStudio" className="object-cover rounded w-full h-96"/>
                 <p className="mt-4 text-center"><span className="font-bold">CreatixStudio</span> didirikan dengan visi
                     untuk mendorong batas-batas
                     kreativitas dan inovasi dalam dunia
@@ -60,7 +60,7 @@ export default function AboutUs() {
                 </div>
             </div>
             <div className="mt-32">
-                <img src="./images/about-bottom.jpg" alt="CreatixStudio"
+                <img loading="lazy" src="./images/about-bottom.jpg" alt="CreatixStudio"
                      className="rounded w-full h-96 lg:h-[600px] object-cover"/>
                 <div className="flex justify-center">
                     <p className="w-full lg:w-1/2 mt-3 text-center italic">

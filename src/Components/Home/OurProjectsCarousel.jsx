@@ -22,7 +22,7 @@ export default function OurProjectsCarousel() {
         <div className="h-56 sm:h-80 xl:h-96 mt-6">
             <Carousel slideInterval={5000}>
                 {images.map((image, index) => (
-                    <img src={image.download_url} key={index} alt={image.author}/>
+                    <img loading="lazy" src={image.download_url} key={index} alt={image.author}/>
                 ))}
             </Carousel>
         </div>

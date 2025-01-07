@@ -26,13 +26,13 @@ export default function OurServices() {
                     </p>
                 </div>
                 <div>
-                    <img src="./images/graphic-design.jpg" alt="Graphic Design"
+                    <img loading="lazy" src="./images/graphic-design.jpg" alt="Graphic Design"
                          className="w-full lg:w-[400px] rounded"/>
                 </div>
             </div>
             <div className="flex flex-col lg:flex-row justify-center gap-3 md:gap-8 lg:gap-16 mt-10">
                 <div>
-                    <img src="./images/animation.jpg" alt="Graphic Design"
+                    <img loading="lazy" src="./images/animation.jpg" alt="Graphic Design"
                          className="w-full lg:w-[400px] rounded"/>
                 </div>
                 <div className="w-full lg:w-1/3">
@@ -43,21 +43,6 @@ export default function OurServices() {
                         frame yang kami buat dipersiapkan dengan perhatian terhadap detail yang ketat, memastikan bahwa
                         setiap proyek memberikan dampak visual yang maksimal dan menyampaikan pesan Anda dengan efektif.
                     </p>
-                </div>
-            </div>
-            <div className="flex flex-col-reverse lg:flex-row justify-center gap-3 md:gap-8 lg:gap-16 mt-10">
-                <div className="w-full lg:w-1/3">
-                    <h2 className="text-xl md:text-2xl font-bold mb-3">Pengembangan Game</h2>
-                    <p className="text-justify">Tim pengembang game kami mengkombinasikan seni
-                        kreatif dengan teknologi terbaru
-                        untuk menciptakan pengalaman bermain game yang menarik dan mendalam. Dari game mobile hingga
-                        aplikasi edukasi interaktif, kami menawarkan solusi game yang tidak hanya menghibur tetapi juga
-                        mempertahankan nilai edukatif dan interaktif.
-                    </p>
-                </div>
-                <div>
-                    <img src="./images/gamedev.jpg" alt="Graphic Design"
-                         className="w-full lg:w-[400px] rounded"/>
                 </div>
             </div>
 

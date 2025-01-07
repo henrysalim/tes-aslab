@@ -25,7 +25,7 @@ export default function Portfolio() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mt-16">
                 {images.map((image, index) => (
                     <div key={index} className="w-full h-72 md:w-64 md:h-64 lg:w-96 lg:h-96">
-                        <img className="rounded object-cover w-full h-full" src={image.download_url} alt={image.author}/>
+                        <img loading="lazy" className="rounded object-cover w-full h-full" src={image.download_url} alt={image.author}/>
                     </div>
                 ))}
             </div>

@@ -4,7 +4,7 @@ export default function Welcoming() {
     return (
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 font-semibold mt-16">
             <div>
-                <img src="./images/company.jpg" alt="Company" className="rounded-md"/>
+                <img loading="lazy" src="./images/company.jpg" alt="Company" className="rounded-md"/>
             </div>
             <div>
                 <p className="text-justify text-base md:text-lg">Selamat datang di Creatix Studio, tempat di mana
