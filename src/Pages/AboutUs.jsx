@@ -43,7 +43,7 @@ export default function AboutUs() {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
                         <div>
                             <h2 className="text-center lg:text-left text-2xl font-bold">Filosofi Kami</h2>
-                            <p className="text-center lg:text-left mt-3">
+                            <p className="text-center lg:text-justify mt-3">
                                 Di <span className="font-bold">CreatixStudio</span>, kami percaya bahwa setiap ide
                                 memiliki
                                 potensi untuk berkembang menjadi
@@ -60,7 +60,7 @@ export default function AboutUs() {
                         </div>
                         <div>
                             <h2 className="text-center lg:text-left text-2xl font-bold">Pencapaian Kami</h2>
-                            <p className="text-center lg:text-left mt-3">
+                            <p className="text-center lg:text-justify mt-3">
                                 Sepanjang perjalanan kami, <span className="font-bold">CreatixStudio</span> telah meraih
                                 berbagai pencapaian penting. Kami
                                 telah bekerja dengan ratusan klien, dari start-up yang inovatif hingga merek besar yang

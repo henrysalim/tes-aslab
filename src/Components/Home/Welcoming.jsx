@@ -14,8 +14,17 @@ export default function Welcoming() {
                     setiap piksel menceritakan kisah, dan kami berkomitmen untuk membawa visi kreatif Anda ke
                     tingkat yang lebih tinggi dengan solusi yang tidak hanya memenuhi, tapi melampaui ekspektasi
                     Anda.</p>
-                <Button
-                    className="btn-primary">Contact Us</Button>
+                <div className="flex flex-row gap-6">
+                    <a href="/about-us">
+                        <Button
+                            className="btn-primary">Learn More About Us &rarr;</Button>
+                    </a>
+                    <a href="/contact-us">
+                        <Button
+                            className="mt-6 hover:bg-gray-700 hover:text-gray-200 hover:-translate-y-2 transition-all duration-200 ease-in-out bg-transparent border-b border-primary text-primary">Contact
+                            Us</Button>
+                    </a>
+                </div>
             </div>
         </div>
     )
